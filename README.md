@@ -27,7 +27,7 @@ CREATE DATABASE gestion_tareas;
 \c gestion_tareas;
 
 -- Crear tabla:
-CREATE TABLE tasks (
+CREATE TABLE tareas (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
