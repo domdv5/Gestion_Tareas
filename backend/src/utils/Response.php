@@ -1,4 +1,13 @@
 <?php
+
+/**
+ * Clase Response
+ * 
+ * Clase utilitaria para manejar las respuestas HTTP de la API.
+ * Proporciona métodos estandarizados para formatear y enviar respuestas
+ * en formato JSON con códigos de estado HTTP apropiados.
+ * 
+ */
 class Response
 {
     // Respuesta exitosa

@@ -1,6 +1,14 @@
 <?php
 require_once __DIR__ . '/../utils/Validator.php';
 
+/**
+ * Clase Task
+ * 
+ * Representa una tarea dentro del sistema de gestión de tareas.
+ * Esta clase maneja las operaciones y propiedades relacionadas con las tareas,
+ * incluyendo su creación, modificación, estado y asignación.
+ * 
+ */
 class Task
 {
     private $id;

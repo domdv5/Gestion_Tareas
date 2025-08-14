@@ -3,6 +3,14 @@ require_once __DIR__ . '/../src/controllers/TaskController.php';
 require_once __DIR__ . '/../src/utils/Response.php';
 require_once __DIR__ . '/../src/utils/Database.php';
 
+/**
+ * Clase ApiRouter
+ * 
+ * Esta clase se encarga de manejar y definir todas las rutas de la API del sistema de gestión de tareas.
+ * Proporciona métodos para registrar endpoints, aplicar middleware y gestionar las diferentes
+ * versiones de la API.
+ * 
+ */
 class ApiRouter
 {
     private $taskController;

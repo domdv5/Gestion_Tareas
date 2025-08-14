@@ -1,4 +1,13 @@
 <?php
+
+/**
+ * Clase Validator
+ * 
+ * Proporciona métodos para validar diferentes tipos de datos y formatos.
+ * Esta clase contiene funciones de utilidad para validar entradas de usuario,
+ * formatos de datos, y aplicar reglas de validación en la aplicación.
+ * 
+ */
 class Validator
 {
     // Validar que el ID sea válido

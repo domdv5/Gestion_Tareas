@@ -14,10 +14,6 @@
  * - Establece métodos HTTP permitidos
  * - Configura headers permitidos y expuestos
  * 
- * @package Middleware
- * @author Tu Nombre
- * @version 1.0
- * @since 1.0
  */
 class CorsMiddleware
 {

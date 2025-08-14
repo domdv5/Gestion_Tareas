@@ -4,6 +4,14 @@ require_once __DIR__ . '/../models/Task.php';
 require_once __DIR__ . '/../utils/Response.php';
 require_once __DIR__ . '/../utils/Validator.php';
 
+/**
+ * Controlador para la gestión de tareas
+ * 
+ * Esta clase maneja todas las operaciones relacionadas con las tareas,
+ * incluyendo la creación, lectura, actualización y eliminación de tareas.
+ * Actúa como intermediario entre las rutas de la API y el modelo de datos.
+ * 
+ */
 class TaskController
 {
     private $taskDAO;

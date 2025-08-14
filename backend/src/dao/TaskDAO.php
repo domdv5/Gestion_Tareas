@@ -2,6 +2,13 @@
 require_once __DIR__ . '/interfaces/TaskDAOInterface.php';
 require_once __DIR__ . '/../models/Task.php';
 
+/**
+ * Clase de acceso a datos para la gestión de tareas
+ * 
+ * Esta clase implementa la interfaz TaskDAOInterface y proporciona
+ * métodos para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar)
+ * sobre las tareas en la base de datos.
+ */
 class TaskDAO implements TaskDAOInterface
 {
     private $db;

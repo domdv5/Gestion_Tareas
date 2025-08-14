@@ -1,4 +1,13 @@
 <?php
+
+/**
+ * Clase Database
+ * 
+ * Esta clase maneja la conexión y operaciones con la base de datos.
+ * Proporciona métodos para establecer conexiones, ejecutar consultas
+ * y gestionar transacciones de manera segura y eficiente.
+ * 
+ */
 class Database
 {
     private static $instance = null;
