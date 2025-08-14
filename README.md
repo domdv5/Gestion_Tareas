@@ -44,14 +44,7 @@ INSERT INTO tasks (title, description) VALUES
 
 ### 3. Configurar Backend
 
-1. **Copiar archivo de configuración:**
-
-```bash
-# Copiar el archivo de ejemplo
-copy backend\.env.example backend\.env
-```
-
-2. **Editar `backend/.env`** con tus credenciales:
+1. **Editar `backend/.env`** con tus credenciales:
 
 ```env
 DB_HOST=localhost
@@ -61,7 +54,7 @@ DB_USERNAME=postgres
 DB_PASSWORD=admin  # Tu contraseña de PostgreSQL
 ```
 
-### 4. Configurar Frontend
+### 2. Configurar Frontend
 
 ```bash
 # Ir a la carpeta frontend
