@@ -19,12 +19,9 @@ Sistema completo con React (Frontend) + PHP (Backend) + PostgreSQL.
 ### 2. Configurar Base de Datos
 
 ```sql
--- Abrir terminal y ejecutar:
-psql -U postgres
 
 -- Crear base de datos:
 CREATE DATABASE gestion_tareas;
-\c gestion_tareas;
 
 -- Crear tabla:
 CREATE TABLE tareas (
