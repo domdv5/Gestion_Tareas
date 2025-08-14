@@ -101,6 +101,3 @@ npm run dev
 - Verificar que PostgreSQL esté corriendo en Laragon
 - Verificar que la base de datos `gestion_tareas` existe
 
-**Archivo de prueba:**
-
-- Abre `http://localhost/Gestion_tareas/test_api.html` para probar la conexión
