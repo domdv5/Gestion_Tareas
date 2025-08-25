@@ -3,7 +3,7 @@
 return [
     'app_name' => 'Sistema de Gestión de Tareas',
     'app_version' => '1.0.0',
-    'timezone' => 'America/Mexico_City',
+    'timezone' => 'America/Bogota',
     'cors' => [
         'allowed_origins' => ['*'],
         'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
